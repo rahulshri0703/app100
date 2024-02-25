@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    return "This is the page"
+    return "This is the page 22"
 
 @app.route("/sum/<int:x>")
 def sum(x):
